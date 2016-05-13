@@ -1,2 +1,19 @@
 {
+  "name": "lemax/project",
+  "description": "Lemax php Framework",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alireza Josheghani",
+      "email": "josheghani.dev@gmail.com"
+    },
+    {
+      "name": "Mohammad Hosein Ebadollahi",
+      "email": "mhemrg120@gmail.com"
+    }
+  ],
+  "require": {
+    "php" : ">=5.5"
+  }
 }
