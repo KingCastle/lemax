@@ -1,18 +1,11 @@
 <?php
 
-	require 'bootstrap/autoload.php';
+	namespace Lemax\database;
 
-	$db = new Migrate([
-		'database_type' => 'mysql',
-		'server' => 'localhost',
-		'username' => 'root',
-		'database_name' => 'lmax',
-		'password' => 'ultraviolet',
-		'charset' => 'utf8'
-	]);
+	/**
+	*	@author : Alireza Josheghani
+	*	@version : 1.0
+	*	@warning : Dont change to this file 
+	*/
 
-	$db->create('posts',[
-		'username' => 'varchar(255)'
-	]);
-
-?>
+	require './vendor/autoload.php';
